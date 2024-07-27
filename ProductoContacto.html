@@ -1,48 +1,54 @@
+Pagina-Producto2-UTP
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&family=Ultra&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Pacifico&family=Ultra&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="estiloformulario.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="estiloformulario.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
 
-    
+
 </head>
+
 <body>
 
 
 
 
   <header>
-   
-    <!--Menu de navegacion -->
-  <nav>
-    
-    <ul>
-        <li> <a href="http://127.0.0.1:5500/index.html"> Inicio </a></li>
-        <li> <a href="http://127.0.0.1:5500/ProductoBlog.html"> Blog </a></li>
-        <li> <a href="http://127.0.0.1:5500/ProductoContacto.html"> Contacto </a></li>
-        <li> <a href="http://127.0.0.1:5500/Servicios.html"> Servicios </a></li>
 
-    </ul>
-  </nav>
-  <div class="logotipo">
-    <img src="IMAGENES/descarga (2).jpg" width="200" alt="">
-    
-  </div>
-</header>
-   
+    <!--Menu de navegacion -->
+    <nav>
+
+      <ul>
+        <li> <a href="Pagina-Producto2-UTP/index.html"> Inicio </a></li>
+        <li> <a href="Pagina-Producto2-UTP/ProductoBlog.html"> Blog </a></li>
+        <li> <a href="Pagina-Producto2-UTP/ProductoContacto.html"> Contacto </a></li>
+        <li> <a href="Pagina-Producto2-UTP/Servicios.html"> Servicios </a></li>
+
+      </ul>
+    </nav>
+    <div class="logotipo">
+      <img src="IMAGENES/descarga (2).jpg" width="200" alt="">
+
+    </div>
+  </header>
+
 
   <!--parte del main para estructura -->
 
@@ -50,61 +56,65 @@
 
 
 
-  
-   <section class="main " >
-<section class="articles">
 
-<div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
+  <section class="main ">
+    <section class="articles">
 
-<div class="container">
-  <div class="moving-dot"></div>
-  <h1>Formulario de Contacto</h1>
-  <form id="formulario">
-    <div class="form-group">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-    </div>
-    <div class="form-group">
-      <label for="telefono">Teléfono:</label>
-      <input type="text" id="telefono" name="telefono" pattern="[0-9]{10}" title="Ingrese un número de teléfono válido (10 dígitos)" required>
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese un correo electrónico válido" required>
-    </div>
-    <div class="form-group">
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
-    </div>
-    <div class="form-group">
-      <input type="checkbox" id="mayor" name="mayor" value="si">
-      <label for="mayor">Soy mayor de edad</label>
-    </div>
-    <div class="form-group">
-      <select id="horario" name="horario">
-        <option value="manana">Mañana</option>
-        <option value="tarde">Tarde</option>
-        <option value="noche">Noche</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <input type="submit" value="Enviar">
-    </div>
-    <button type="button" id="borrarCampos">Borrar Campos</button>
-  </form>
-</div>
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
 
-<div class="map-container">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15083.879680876631!2d-98.16637440520668!3d19.06506009007071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc1c9a30530ab%3A0xefd33e2f1a6ca5a2!2sUniversidad%20Tecnol%C3%B3gica%20de%20Puebla!5e0!3m2!1ses!2smx!4v1718509684019!5m2!1ses!2smx"  width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="container">
+        <div class="moving-dot"></div>
+        <h1>Formulario de Contacto</h1>
+        <form id="formulario">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" pattern="[0-9]{10}"
+              title="Ingrese un número de teléfono válido (10 dígitos)" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="Ingrese un correo electrónico válido" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="mayor" name="mayor" value="si">
+            <label for="mayor">Soy mayor de edad</label>
+          </div>
+          <div class="form-group">
+            <select id="horario" name="horario">
+              <option value="manana">Mañana</option>
+              <option value="tarde">Tarde</option>
+              <option value="noche">Noche</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Enviar">
+          </div>
+          <button type="button" id="borrarCampos">Borrar Campos</button>
+        </form>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15083.879680876631!2d-98.16637440520668!3d19.06506009007071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc1c9a30530ab%3A0xefd33e2f1a6ca5a2!2sUniversidad%20Tecnol%C3%B3gica%20de%20Puebla!5e0!3m2!1ses!2smx!4v1718509684019!5m2!1ses!2smx"
+          width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
-</div>
+      </div>
 
 
 
-<script src="ProductoContacto.js"></script>
+      <script src="ProductoContacto.js"></script>
 </body>
-</html>
 
+</html>
